@@ -29,6 +29,11 @@ class PhoneNumberTest extends \PHPUnit\Framework\TestCase
                 '1 (333) 231-5541 x3415',
                 null,
             ],
+            'country code' => [
+                '14-333-231-5541 x3415',
+                '14 (333) 231-5541 x3415',
+                null,
+            ],
             'number too short' => [
                 '1234',
                 null,
